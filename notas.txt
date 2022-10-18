@@ -3,3 +3,5 @@ esas consultas con sus datos existentes
 
 Schema: Un documento que describe detalladamente todos los tipos de informacion que tendra la api
 especificando el tipo de campo que es
+
+Instalar GraphQl: npm i graphql

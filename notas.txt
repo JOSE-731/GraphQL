@@ -11,3 +11,5 @@ ejecutar y los campos que deseas obtener. GraphQL te va a devolver la informaci�
 
 El resultado de tu petición no se va a ejecutar de manera mágica, para ello debes definir el objeto resolvers, 
 este objeto va a contener una propiedad del mismo nombre que la query que va a resolver o ejecutar.
+
+Para trabajar en formato de aplicacion web instalamos la dependencia de express y un middleware: npm i express express-graphql

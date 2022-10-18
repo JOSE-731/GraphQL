@@ -3,17 +3,22 @@ const {graphql, buildSchema} = require('graphql')//Importamos la utilidades para
 //Definimos el esquema
 const schema =  buildSchema(`
  type Query{
-    hello: String
+    hello: String,
+    name: String
  }
 `)
 
+//Configuracion de resolvers: definimos lo que devolverá la consulta
+const resolvers ={
+    hello: ()=>{
+        return 'Hola mundo'
+    },
+    name: ()=>{
+        return 'Jose'
+    }
+}
+
 //Ejecutamos el query
-graphql({
-    schema: schema,
-    source: '{ hello }'})
-.then((data) => {
-    console.log(data);
+graphql(schema, '{hello, name}', resolvers).then((data) =>{
+    console.log(data)
 })
-.catch(e => {
-    console.log(e);
-});

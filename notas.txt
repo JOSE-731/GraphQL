@@ -5,3 +5,9 @@ Schema: Un documento que describe detalladamente todos los tipos de informacion 
 especificando el tipo de campo que es
 
 Instalar GraphQl: npm i graphql
+
+Una query: permite ejecutar una petición al API, dentro de una query debes indicar la consulta que quieres
+ejecutar y los campos que deseas obtener. GraphQL te va a devolver la información que solicitaste dentro del objeto data.
+
+El resultado de tu petición no se va a ejecutar de manera mágica, para ello debes definir el objeto resolvers, 
+este objeto va a contener una propiedad del mismo nombre que la query que va a resolver o ejecutar.

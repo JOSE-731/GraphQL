@@ -1,0 +1,16 @@
+
+ #Custom type
+ type Course{
+    _id: ID,
+    title: String,
+    teacher: String,
+    description: String,
+    topic: String
+ }
+
+#Este query retornará todo lo que esté en el typo Course
+ type Query{
+    hello: String,
+    name: String
+    getCourses: [Course]
+ }

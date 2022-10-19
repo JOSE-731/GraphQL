@@ -13,3 +13,5 @@ El resultado de tu petición no se va a ejecutar de manera mágica, para ello de
 este objeto va a contener una propiedad del mismo nombre que la query que va a resolver o ejecutar.
 
 Para trabajar en formato de aplicacion web instalamos la dependencia de express y un middleware: npm i express express-graphql
+
+npm i graphql-tools: Modulo que nos proveerá diversas utilidades

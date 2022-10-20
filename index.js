@@ -1,3 +1,4 @@
+require('dotenv').config()
 const { makeExecutableSchema } = require('graphql-tools')//Importamos la utilidades para trabajar con los schemas 
 const express = require('express')
 const { graphqlHTTP } = require('express-graphql') //Importamos el middleware de express graphql

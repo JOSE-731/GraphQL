@@ -15,3 +15,5 @@ este objeto va a contener una propiedad del mismo nombre que la query que va a r
 Para trabajar en formato de aplicacion web instalamos la dependencia de express y un middleware: npm i express express-graphql
 
 npm i graphql-tools: Modulo que nos proveerá diversas utilidades
+
+npm i mongo: Instalamos mongo db
